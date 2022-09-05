@@ -1,0 +1,109 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+html {
+	background-color: black;
+}
+
+/* SITE STRUCTURE */
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.inner-column {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 10px;
+}
+
+/* SITE SECTIONS */
+.site-header {
+	background-color: lightgray;
+	position: sticky;
+	top: 0px;
+	box-shadow:  0px 2px 5px 0px;
+}
+
+.site-header .inner-column {
+	flex-direction: row;
+}
+
+.page-header {
+	background-color: white;
+}
+
+.content-list {
+	margin-top: 10px;
+	margin-botom: 10px;
+	background-color: lightgray;
+	min-height: 100vh;
+	flex-grow: 1;
+}
+
+.article-card {
+	padding: 10px;
+
+}
+
+.site-footer {
+	background-color: gray;
+}
+
+/* IMAGES */
+.site-header img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.article-card img {
+	border: 1px solid black;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	margin-bottom: 5px;
+}
+
+
+/* BREAK POINTS (add another) */
+@media (min-width: 550px) {
+	.inner-column {
+		max-width: 80vw;
+		flex-direction: row;
+	}
+
+	.page-header img {
+		float: left;
+		max-width: 30vw;
+		border: 1px solid;
+	}
+}
+
+/* TYPOGRAPHY */
+h1 {
+  font-family: Baskerville;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: Baskerville;
+  font-size: 1.5em;
+}
+
+h2 + p, a {
+  margin-top: 5px;
+}
+
+p {
+  font-family: Verdana;
+  font-size: 1em;
+  line-height: 1.2;
+}
+
+a {
+	font-family: Verdana;
+}
