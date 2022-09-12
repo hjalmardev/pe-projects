@@ -1,0 +1,79 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+html {
+	background-color: cornsilk;
+}
+
+
+/* SITE STRUCTURE */
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.inner-column {
+	padding: 30px 15px;
+	margin: auto;
+}
+
+/* SITE SECTIONS */
+
+.site-header {
+	background-color: lightblue;
+	position: sticky;
+	top: 0px;
+	box-shadow:  0px 2px 5px 0px;
+}
+
+.site-header .inner-column {	
+	padding: 15px;
+}
+
+.page-content {
+	background-image: url("https://images.unsplash.com/photo-1635179050447-f0b4bed428da");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center 90%;
+	flex-grow: 1; /* true */
+}
+
+.page-header {
+	background-color: transparent;
+}
+
+.about {
+	background-color: honeydew;
+}
+
+.contact {
+	background-color: transparent;
+	color: white;
+}
+
+.site-footer {
+	background-color: gray;
+	color: white;
+}
+
+/* TYPOGRAPHY */
+h1 {
+	font-family: serif;
+	font-size: 2.5em;
+}
+
+h2 {
+	font-family: serif;
+	font-size: 2em;
+}
+
+h1 + p, h2 + p {
+	margin-top: 15px;
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 1em;
+	line-height: 1.5;
+}

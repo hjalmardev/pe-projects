@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto;
+	max-width: 500px;
+	background-image: linear-gradient(#ffffe0, #fffaf0);
+}
+
+header {
+}
+
+nav {
+	max-width: 100%;
+
+}
+
+nav li {
+	display: inline-block;
+
+}
+
+a {
+	color: #a0522d;
+}
+
+ul {
+	color: #03ff00;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1, h2 {
+	color: #008001;
+	font-family: Baskerville;
+}
+
+footer {
+	margin-top: 20px;
+}
