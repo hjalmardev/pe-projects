@@ -1,0 +1,6 @@
+Learning Notes
+by Hjalmar Rivera
+https://hjalmar.dev
+
+09/12/22
+Hello world! This is a small side-project where I keep notes on what I’m learning at the moment.
