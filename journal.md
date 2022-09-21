@@ -2,10 +2,10 @@ Learning Journal
 by Hjalmar Rivera
 https://hjalmar.dev
 
-09/12/22
+# 09/12/22
 Hello world! This is a small side-project where I keep notes on what I’m learning at the moment.
 
-09/14/22
+# 09/14/22
 Today's lesson was on negative space and how that looks like in web layouts or mood boards (those were the main examples but the concepts are very universal).
 
 - Have a design system--once you establish why you like what you like, it'll need to be reproduced in the future. "I like it just because," isn't modular / scalable
@@ -20,7 +20,7 @@ Questions / Comments:
 - Unrelated but for my icon challenge, I should find out sizes icons are normally at
 - My skills don't match my vision yet. I want to be able to template / layout build faster and more accurately with Affinity Designer. Then actually code it!
 
-09/15/22
+# 09/15/22
 
 ## Standup:
 
@@ -77,3 +77,25 @@ Chris Do's rules
 - When you rotate the axist of text (like making text that would normally be horizontal into a vertical line) you can accidentally create visual barriers
 - Do many many versions
 - Chris Do also says that with logo design there's too many tricks! Why is that bad? Too many tricks MAKE THINGS AGE BAD. You age well with simplicity.
+
+# 09/21/22
+I'm back after a surviving my second hurricane! I caught up fast after doing four or so lessons in one day, pretty surprised.
+
+## Standup
+
+Today,
+√ Finished each day’s TAD icon
+√ Re-created an e-commerce store site
+√ Created a quick style tile for my personal site
+√ Made a simple postcard in AD
+√ Created a black and white graphic representing a word that had to be guessed
+√ Finally, created another style tile that is e-commerce focused (for an audiphile store)
+
+
+### Notes:
+- When designing for yourself, it helps to image that you are the client. The distance makes it easier to think about your goals and ways to present them visually before building a prototype.
+- We all absorb visual information in different ways. Sometimes and abstract or practical poster says a completely different message than we intended. So it's important to ask people what colors, words, textures, layouts, and design in general feels like. Ask them to describe it as best they can.
+- What an interesting exercise… I ended up with two styles that are completely different than what I aimed for.
+- I love simplicity. I start with crazy visuals in my head but always end up doing something minimal.
+- Lot's of colors have their place, but black and white goes a long way. It's important to makes sure that "visual tricks" are not there just to paint over a boring canvas.
+- I like focusing on text rather than images--so that’s why I enjoy using little tricks like text gradients to type pop
