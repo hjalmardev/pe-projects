@@ -99,3 +99,31 @@ Today,
 - I love simplicity. I start with crazy visuals in my head but always end up doing something minimal.
 - Lot's of colors have their place, but black and white goes a long way. It's important to makes sure that "visual tricks" are not there just to paint over a boring canvas.
 - I like focusing on text rather than images--so that’s why I enjoy using little tricks like text gradients to type pop
+
+# 09/22/22
+
+## Standup
+
+Today,
+- Met with Derek to talk about the responsive layout garden and it’s overarching goals
+- Created two sets of icons
+- Edited my offline /goals file  so I can code it up into HTML/CSS tomorrow
+	-  I also gathered everything into one document (project ideas, style tiles, mood board, website copy, etc.) so I have a clear idea of what I want for my website
+- Creating another icon for my TAD challenge--this time thinking about traffic signs
+- Adding my notes to GitHub
+- Sharing some visual inspiration I found while snooping around the alphanet (that some people in alpha-4 might recognize!) :eyes:
+
+
+## Notes:
+- Icons are a universe:
+	- They can lose their effect if made too big
+	- They need to be distinguishable when small
+	- It's important that they are cohesive--you can get this effect by reusing elements like stroke, shapes, and colors
+	- There are standard sizes like 36 x 36
+- Regarding building responsive layouts:
+	- Copy another website to reverse-engineer their approach. Did they use flexbox, grid, a framework?
+	- Create and delete; quantity is better than quality in this case, where you can become vert proficient and whipping up modules or full responsive layouts really quickly
+- I've come to realize that I love pastel colors
+- A lot of the internet looks the same with a header, main content that's mostly long rectanlges within a constrained inner column-type space, and then a footer.
+	- An approach to making things refreshing is building websites as if they were posters. Why? There's a huge and rich tradition in typography, graphic design, and art that we can pull from as designers and developers.
+		- From structure to contrast and negative space, this poster approach can really differentiate a site.
