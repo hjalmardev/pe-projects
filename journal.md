@@ -127,3 +127,5 @@ Today,
 - A lot of the internet looks the same with a header, main content that's mostly long rectanlges within a constrained inner column-type space, and then a footer.
 	- An approach to making things refreshing is building websites as if they were posters. Why? There's a huge and rich tradition in typography, graphic design, and art that we can pull from as designers and developers.
 		- From structure to contrast and negative space, this poster approach can really differentiate a site.
+
+# 09/27/22
