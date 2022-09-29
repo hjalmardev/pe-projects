@@ -13,8 +13,7 @@ body {
 .inner-column {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 900px;
-	background-color: lightgray;
+	max-width: 1200px;
 }
 
 /* TYPOGRAPHY */
@@ -30,6 +29,7 @@ header h1 {
 
 header p {
 	font-size: 1.2em;
+	line-height: 1.2;
 	max-width: 50ch;
 	margin-bottom: 20px;
 }
@@ -41,6 +41,51 @@ header nav {
 header a {
 	text-decoration: none;
 	font-style: italic;
+	font-size: 1.2em;
 	color: #66B6FF;
 	line-height: 1.2;
+}
+
+main h2 {
+	font-family: "Roboto-bold";
+	text-transform: uppercase;
+}
+
+.card h3 {
+	font-family: "Roboto-bold";
+	margin-bottom: 5px;
+
+}
+
+/* STYLE  */
+header h1 {
+	background-color: #f5f5f5;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+main .inner-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	border-radius: 30px;
+	overflow: hidden;
+	gap: 20px;
+	background-color: #f5f5f5;
+	max-width: 300px;
+}
+
+main .inner-column a {
+	text-decoration: none;
+	backgorund-color: purple;
+}
+
+.card-text {
+	padding: 10px;
 }
