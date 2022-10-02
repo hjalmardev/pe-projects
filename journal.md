@@ -128,4 +128,9 @@ Today,
 	- An approach to making things refreshing is building websites as if they were posters. Why? There's a huge and rich tradition in typography, graphic design, and art that we can pull from as designers and developers.
 		- From structure to contrast and negative space, this poster approach can really differentiate a site.
 
-# 09/27/22
+# 10/1/22
+
+## Standup
+
+### Notes:
+- I imagine if/elseif statements in PHP can be used alongside HTML/CSS somehow to pick and choose which files to load depending on the @media query / viewport size?
