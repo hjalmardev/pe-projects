@@ -134,3 +134,17 @@ Today,
 
 ### Notes:
 - I imagine if/elseif statements in PHP can be used alongside HTML/CSS somehow to pick and choose which files to load depending on the @media query / viewport size?
+
+# 10/2/22
+
+## Standup
+- Sundays are standup-free
+
+###
+- Where can you use PHP?
+	- PHP seems useful whenever you're working with dynamic (changing data) or lots of data. In the context of web development, it doesn't seem intuitive to copy-paste a module hundreds of times when you can just write the code once and call it as needed by looping through an array.
+	- As for dynamic data, using an array beats going into the code itself and writing each new item. I imagine we'll eventually learn how to point PHP to external files so it can process the data and add it to our code.
+	- I also see PHP being used in websites that are mostly changing, or that change based on context. Social media immediately comes to mind because no one is seeing exactly the same site beyond a core strucutre. So the content itself is modular, and it's more about having PHP files that can swap out as needed (... and probably based on instructions from the brainwashy algorithms).
+- I think PHP would be great to use in a project that Derek and I talked about for small businesses in Puerto Rico who don't have websites. It's basically a business card site generator. Using PHP, we could somhow take simple instructions from say a Google form and have it automatically converted to a site.
+- Examples in the wild:
+	- Definetely Facebook 100%, I imagine Instagram too. I've heard that WordPress uses PHP a lot.
