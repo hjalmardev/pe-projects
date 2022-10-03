@@ -148,3 +148,51 @@ Today,
 - I think PHP would be great to use in a project that Derek and I talked about for small businesses in Puerto Rico who don't have websites. It's basically a business card site generator. Using PHP, we could somhow take simple instructions from say a Google form and have it automatically converted to a site.
 - Examples in the wild:
 	- Definetely Facebook 100%, I imagine Instagram too. I've heard that WordPress uses PHP a lot.
+
+# 10/3/22
+
+## Standup
+- Weekend,
+	- I had a PHP party!
+		- Coded a madlibs to get familiar with PHP’s basic structure
+		- Practiced using conditionals
+		- Learned about arrays and associative arrays/objects
+		- Introduced to the foreach statement to loop through arrays and objects
+	- Created the monster adoption site! Lots of fun
+	-	Other topics that come to mind: delimiter, statement, operator, argument, function (might be time for a /study-hall review)
+	- Learned more about HSL (I much prefer HSL to using RGB)
+
+- Today,
+	- Implement Derek’s feedback on my monsters site
+	- Organize folder structure locally and on Transmit
+	- If there’s time, keep troubleshooting why DeployBot isn’t working for me even though it’s error-free
+	- Finish coding up the HTML and CSS for my goals page at hjalmar/goals/index.html
+		- Why I’ve taken so long: I didn’t plan my website’s design in a flexible enough way, and a simple goals list looks terrible because of my CSS, so I’m making a separate style file
+	- Draft a case study for my Joyfully Clean project
+	- Schedule a meeting with Derek IF he’s available today!
+
+## Notes
+
+## Questions
+So far, I have a few questions:
+
+- General:
+	- Regarding website titles (metadata information) is it best to repeat your information--like "Hjalmar's Site" or change it based on the specific page--like "Hjalmar's Goals"
+	- I have lots of project ideas and picked these three. Which one would whelp me learn the most and look good on a portfolio?
+		- A business card website generator (for when SquareSpace is too much and Linktree is too little) using PHP and taking user data from a Google form
+		- A portfolio site for my partner who's a photographer and architect, so a very image-heavy design and build
+		- A PSA-style website similar to nohello.net talking about how "lootboxes" (video game gambling) is dangerous
+	- Instead of doing icons or other graphics in Affinity Designer for the thing-a-day challenge, could I make a style tile a day instead? I feel like that's a valuable skill, and it would let me explore lots of my project ideas by designing style tiles for them.
+
+- Troubleshooting:
+	- Sublime's Package Manager doesn't let me install the PHP Syntax Checker. What do?
+	- DeployBot doesn't show any errors but it's not updating my files after pushing them through GitHub.
+
+- Personal website-related:
+	- What's the right way to include fonts into websites?
+	- I'm trying to make a card that is half image and half text, but can't. How do I get an image to be only half of its parent in the context of flexbox? Using width: 50% isn't working.
+
+- Job-related:
+	- What distinguishes a web developer that earns $200K from one earning $50K?
+	-	What can I start doing early to set myself up for success later one?
+	- What is realistic to aim for with the first job search?
