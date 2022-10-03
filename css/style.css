@@ -2,7 +2,7 @@
 @import 'setup.css';
 
 html {
-	background-color: white;
+	background-color: gold;
 }
 
 /* STRUCTURE */
@@ -18,11 +18,10 @@ body {
 
 /* TYPOGRAPHY */
 h1, h2, h3, p, a {
-	font-family: "Roboto";
 }
 
 header h1 {
-	font-family: "Roboto-light";
+	font-family: "Robot";
 	font-size: 3em;
 	margin-bottom: 20px;
 }
@@ -47,12 +46,10 @@ header a {
 }
 
 main h2 {
-	font-family: "Roboto-bold";
 	text-transform: uppercase;
 }
 
 .card h3 {
-	font-family: "Roboto-bold";
 	margin-bottom: 5px;
 
 }
@@ -102,7 +99,6 @@ main .inner-column a {
 
 ul {
 	list-style: square;
-	font-family: "Roboto";
 	padding: 0px 30px;
 }
 
