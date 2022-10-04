@@ -1,28 +1,154 @@
-Learning Journal
-by Hjalmar Rivera
-https://hjalmar.dev
-
-# 09/12/22
+# Hjalmar's Learning Journal
 Hello world! This is a small side-project where I keep notes on what I’m learning at the moment.
+You can find me here: https://hjalmar.dev
 
-# 09/14/22
-Today's lesson was on negative space and how that looks like in web layouts or mood boards (those were the main examples but the concepts are very universal).
 
-- Have a design system--once you establish why you like what you like, it'll need to be reproduced in the future. "I like it just because," isn't modular / scalable
-- Negative space is in-between, around, inside, etc. What isn't occupied at the moment depending on how you look at it.
-- Playing with contrast or juxtaposing different objects together can really change the look and feel of what you see. Colors, shapes, sizes, proximity, etc.
-- Ask "what if" often when exploring how a layout or design looks. There's an early testing phase where you're trying to find what "feels right" and then decide why. Asking "what if I do this?" and then doing it speeds up the discovery process.
-- Also, understanding why you're arranging objects that way / making that design choice will come in handy when selling your idea to the client or team.
-- Weight (border thickness, object size) can really draw the eye, can be used strategically
+## 10/3/22
+I continued working on my website, goals page, and other side-project type work like writing a case study for my first small business website.
 
-Questions / Comments:
-- What sizes should I use in Affinity Designer to mimic mobile, tablet, and screen displays? I waant to be precise.
-- Unrelated but for my icon challenge, I should find out sizes icons are normally at
-- My skills don't match my vision yet. I want to be able to template / layout build faster and more accurately with Affinity Designer. Then actually code it!
+### Standup
+- Weekend:
+	- I had a PHP party!
+		- Coded a madlibs to get familiar with PHP’s basic structure
+		- Practiced using conditional
+		- Learned about arrays and associative arrays/objects
+		- Introduced to the foreach statement to loop through arrays and objects
+	- Created the monster adoption site! Lots of fun
+	-	Other topics that come to mind: delimiter, statement, operator, argument, function (might be time for a /study-hall review)
+	- Learned more about HSL (I much prefer HSL to using RGB)
 
-# 09/15/22
+- Today:
+	- [ ] Implement Derek’s feedback on my monsters site
+	- [x] Organize folder structure locally and on Transmit
+	- [x] If there’s time, keep troubleshooting why DeployBot isn’t working for me even though it’s error-free
+	- [x] Finish coding up the HTML and CSS for my goals page at hjalmar/goals/index.html
+		- Why I’ve taken so long: I didn’t plan my website’s design in a flexible enough way, and a simple goals list looks terrible because of my CSS, so I’m making a separate style file
+		- I also kept changing my mind about goals for a long time and they feel very solid now
+	- [x] Draft a case study for my Joyfully Clean project
+	- [x] Schedule a meeting with Derek IF he’s available today!
 
-## Standup:
+### Notes
+- PHP doesn't come default on all computers. In order to use a package in Sublime, we had to install it. Also, [Homebrew](https://brew.sh/) for macOS is great.
+- Seems simple but it's really all there is: "It’s just sitting down - and doing the work - and staying clear on your intention." - Derek
+- Fun fact--markdown can accept HTML!
+- When note taking, explaining concepts in my own words helps check for understanding.
+- In regards to my personal website:
+	- There's an accidental rag in the projects/articles section
+	- Don't just center things without purpose!
+	- I can use PHP for the list of articles and projects. Remake it with PHP!
+	- Try experimenting with grid or other layouts in the future--but for now, get the basics down in a business card format. Simple, effective layout.
+	- Watch out for unintentional shapes (like a cross) being created accidentally
+	- In the future I can add a suprise button that makes the website more colorful when clicked, so it can be professional at first glance but with room to be fun
+
+### Questions
+So far, I have a few questions:
+
+- General:
+	- [x] "If you put the radius and overflow on the parent (picture element) - then it will act like a mask" - Derek
+	- I have lots of project ideas and picked these three. Which one would whelp me learn the most and look good on a portfolio?
+		- A business card website generator (for when SquareSpace is too much and Linktree is too little) using PHP and taking user data from a Google form
+		- A portfolio site for my partner who's a photographer and architect, so a very image-heavy design and build
+		- A PSA-style website similar to nohello.net talking about how "lootboxes" (video game gambling) is dangerous
+	- Instead of doing icons or other graphics in Affinity Designer for the thing-a-day challenge, could I make a style tile or module for the responsive layout garden every day? I feel like those two would help me move forward on my portfolio projects. Or is it also important to keep making graphics for TAD?
+	- Question about custom elements in HTML and their interactions in CSS 
+
+
+- Troubleshooting:
+	- [x] Sublime's Package Manager doesn't let me install the PHP Syntax Checker. What do?
+		- I didn't hit "enter"
+	- [x] DeployBot doesn't show any errors but it's not updating my files after pushing them through GitHub.
+
+- Personal website-related:
+	- [x] What's the right way to include fonts into websites?
+	- [x] I'm trying to make a card that is half image and half text, but can't. How do I get an image to be only half of its parent in the context of flexbox? Using width: 50% isn't working.
+	- Regarding website titles (metadata information) is it best to repeat your information--like "Hjalmar's Site" or change it based on the specific page--like "Hjalmar's Goals"
+
+- Job-related:
+	- What distinguishes a web developer that earns $200K from one earning $50K?
+	-	What can I start doing early to set myself up for success later one?
+	- What is realistic to aim for with the first job search?
+	- When writing blog posts or articles for other websites, how do you know what topics would make you more hirable? For example, I don't think it's very useful to repost my small business case study to DEV. What should I post on my blog only and what should I repost or aim to publish elswhere?
+
+## 10/2/22
+Today was a catchup day for lessons and related work.
+
+### Standup
+- Sundays are standup-free!
+
+### Notes
+- Where can you use PHP?
+	- PHP seems useful whenever you're working with dynamic (changing data) or lots of data. In the context of web development, it doesn't seem intuitive to copy-paste a module hundreds of times when you can just write the code once and call it as needed by looping through an array.
+	- As for dynamic data, using an array beats going into the code itself and writing each new item. I imagine we'll eventually learn how to point PHP to external files so it can process the data and add it to our code.
+	- I also see PHP being used in websites that are mostly changing, or that change based on context. Social media immediately comes to mind because no one is seeing exactly the same site beyond a core strucutre. So the content itself is modular, and it's more about having PHP files that can swap out as needed (... and probably based on instructions from the brainwashy algorithms).
+- I think PHP would be great to use in a project that Derek and I talked about for small businesses in Puerto Rico who don't have websites. It's basically a business card site generator. Using PHP, we could somhow take simple instructions from say a Google form and have it automatically converted to a site.
+- Examples in the wild:
+	- Definetely Facebook 100%, I imagine Instagram too. I've heard that WordPress uses PHP a lot.
+
+## 10/1/22
+This week's lessons are on PHP. I was super sick and got behind but I'm all caught up now!
+
+### Standup
+I missed standup after an improptu doctor's appointment.
+
+### Notes:
+- I imagine if/elseif statements in PHP can be used alongside HTML/CSS somehow to pick and choose which files to load depending.
+- PS: I regret not taking more notes during this process because PHP is super interesting, and I wanted to review its key concepts.
+- A few keywords that come to mind: control flow/logic, conditionals, loops, statements, arguments, arrays, associative arrays (or objects), concatenation, delimiters, functions
+
+## 09/22/22
+
+### Standup
+
+Today,
+- Met with Derek to talk about the responsive layout garden and it’s overarching goals
+- Created two sets of icons
+- Edited my offline /goals file  so I can code it up into HTML/CSS tomorrow
+	-  I also gathered everything into one document (project ideas, style tiles, mood board, website copy, etc.) so I have a clear idea of what I want for my website
+- Creating another icon for my TAD challenge--this time thinking about traffic signs
+- Adding my notes to GitHub
+- Sharing some visual inspiration I found while snooping around the alphanet (that some people in alpha-4 might recognize!) :eyes:
+
+
+### Notes:
+- Icons are a universe:
+	- They can lose their effect if made too big
+	- They need to be distinguishable when small
+	- It's important that they are cohesive--you can get this effect by reusing elements like stroke, shapes, and colors
+	- There are standard sizes like 36 x 36
+- Regarding building responsive layouts:
+	- Copy another website to reverse-engineer their approach. Did they use flexbox, grid, a framework?
+	- Create and delete; quantity is better than quality in this case, where you can become vert proficient and whipping up modules or full responsive layouts really quickly
+- I've come to realize that I love pastel colors
+- A lot of the internet looks the same with a header, main content that's mostly long rectanlges within a constrained inner column-type space, and then a footer.
+	- An approach to making things refreshing is building websites as if they were posters. Why? There's a huge and rich tradition in typography, graphic design, and art that we can pull from as designers and developers.
+		- From structure to contrast and negative space, this poster approach can really differentiate a site.
+
+## 09/21/22
+I'm back after a surviving my second hurricane! I caught up fast after doing four or so lessons in one day, pretty surprised.
+
+### Standup
+
+Today,
+- √ Finished each day’s TAD icon
+- √ Re-created an e-commerce store site
+- √ Created a quick style tile for my personal site
+- √ Made a simple postcard in AD
+- √ Created a black and white graphic representing a word that had to be guessed
+- Finally, created another style tile that is e-commerce focused (for an audiphile store)
+
+
+### Notes:
+- When designing for yourself, it helps to image that you are the client. The distance makes it easier to think about your goals and ways to present them visually before building a prototype.
+- We all absorb visual information in different ways. Sometimes and abstract or practical poster says a completely different message than we intended. So it's important to ask people what colors, words, textures, layouts, and design in general feels like. Ask them to describe it as best they can.
+- What an interesting exercise… I ended up with two styles that are completely different than what I aimed for.
+- I love simplicity. I start with crazy visuals in my head but always end up doing something minimal.
+- Lots of colors have their place, but black and white goes a long way. It's important to makes sure that "visual tricks" are not there just to paint over a boring canvas.
+- I like focusing on text rather than images--so that’s why I enjoy using little tricks like text gradients to type pop
+
+## 09/15/22
+In today's lesson we took a deep dive into typography and specifically into rules for contrast and space.
+
+### Standup
 
 Yesterday,
 - Took some notes during the lesson videos
@@ -44,9 +170,8 @@ Today,
 	- Check-in on StackOverflow to see if there are any questions to ask / answer
 	- Work on a blog post draft in my Substack
 
-Today's Lesson:
-We took a deep dive into typography and specifically into rules for contrast and space
 
+### Notes:
 Chris Do's rules
 1. Flush left (more natural)
 2. Use one type face--it's hard to know if you're using two successfully
@@ -78,121 +203,17 @@ Chris Do's rules
 - Do many many versions
 - Chris Do also says that with logo design there's too many tricks! Why is that bad? Too many tricks MAKE THINGS AGE BAD. You age well with simplicity.
 
-# 09/21/22
-I'm back after a surviving my second hurricane! I caught up fast after doing four or so lessons in one day, pretty surprised.
+## 09/14/22
+Today's lesson was on negative space and how that looks like in web layouts or mood boards (those were the main examples but the concepts are very universal).
 
-## Standup
+- Have a design system--once you establish why you like what you like, it'll need to be reproduced in the future. "I like it just because," isn't modular / scalable
+- Negative space is in-between, around, inside, etc. What isn't occupied at the moment depending on how you look at it.
+- Playing with contrast or juxtaposing different objects together can really change the look and feel of what you see. Colors, shapes, sizes, proximity, etc.
+- Ask "what if" often when exploring how a layout or design looks. There's an early testing phase where you're trying to find what "feels right" and then decide why. Asking "what if I do this?" and then doing it speeds up the discovery process.
+- Also, understanding why you're arranging objects that way / making that design choice will come in handy when selling your idea to the client or team.
+- Weight (border thickness, object size) can really draw the eye, can be used strategically
 
-Today,
-√ Finished each day’s TAD icon
-√ Re-created an e-commerce store site
-√ Created a quick style tile for my personal site
-√ Made a simple postcard in AD
-√ Created a black and white graphic representing a word that had to be guessed
-√ Finally, created another style tile that is e-commerce focused (for an audiphile store)
-
-
-### Notes:
-- When designing for yourself, it helps to image that you are the client. The distance makes it easier to think about your goals and ways to present them visually before building a prototype.
-- We all absorb visual information in different ways. Sometimes and abstract or practical poster says a completely different message than we intended. So it's important to ask people what colors, words, textures, layouts, and design in general feels like. Ask them to describe it as best they can.
-- What an interesting exercise… I ended up with two styles that are completely different than what I aimed for.
-- I love simplicity. I start with crazy visuals in my head but always end up doing something minimal.
-- Lot's of colors have their place, but black and white goes a long way. It's important to makes sure that "visual tricks" are not there just to paint over a boring canvas.
-- I like focusing on text rather than images--so that’s why I enjoy using little tricks like text gradients to type pop
-
-# 09/22/22
-
-## Standup
-
-Today,
-- Met with Derek to talk about the responsive layout garden and it’s overarching goals
-- Created two sets of icons
-- Edited my offline /goals file  so I can code it up into HTML/CSS tomorrow
-	-  I also gathered everything into one document (project ideas, style tiles, mood board, website copy, etc.) so I have a clear idea of what I want for my website
-- Creating another icon for my TAD challenge--this time thinking about traffic signs
-- Adding my notes to GitHub
-- Sharing some visual inspiration I found while snooping around the alphanet (that some people in alpha-4 might recognize!) :eyes:
-
-
-## Notes:
-- Icons are a universe:
-	- They can lose their effect if made too big
-	- They need to be distinguishable when small
-	- It's important that they are cohesive--you can get this effect by reusing elements like stroke, shapes, and colors
-	- There are standard sizes like 36 x 36
-- Regarding building responsive layouts:
-	- Copy another website to reverse-engineer their approach. Did they use flexbox, grid, a framework?
-	- Create and delete; quantity is better than quality in this case, where you can become vert proficient and whipping up modules or full responsive layouts really quickly
-- I've come to realize that I love pastel colors
-- A lot of the internet looks the same with a header, main content that's mostly long rectanlges within a constrained inner column-type space, and then a footer.
-	- An approach to making things refreshing is building websites as if they were posters. Why? There's a huge and rich tradition in typography, graphic design, and art that we can pull from as designers and developers.
-		- From structure to contrast and negative space, this poster approach can really differentiate a site.
-
-# 10/1/22
-
-## Standup
-
-### Notes:
-- I imagine if/elseif statements in PHP can be used alongside HTML/CSS somehow to pick and choose which files to load depending on the @media query / viewport size?
-
-# 10/2/22
-
-## Standup
-- Sundays are standup-free
-
-###
-- Where can you use PHP?
-	- PHP seems useful whenever you're working with dynamic (changing data) or lots of data. In the context of web development, it doesn't seem intuitive to copy-paste a module hundreds of times when you can just write the code once and call it as needed by looping through an array.
-	- As for dynamic data, using an array beats going into the code itself and writing each new item. I imagine we'll eventually learn how to point PHP to external files so it can process the data and add it to our code.
-	- I also see PHP being used in websites that are mostly changing, or that change based on context. Social media immediately comes to mind because no one is seeing exactly the same site beyond a core strucutre. So the content itself is modular, and it's more about having PHP files that can swap out as needed (... and probably based on instructions from the brainwashy algorithms).
-- I think PHP would be great to use in a project that Derek and I talked about for small businesses in Puerto Rico who don't have websites. It's basically a business card site generator. Using PHP, we could somhow take simple instructions from say a Google form and have it automatically converted to a site.
-- Examples in the wild:
-	- Definetely Facebook 100%, I imagine Instagram too. I've heard that WordPress uses PHP a lot.
-
-# 10/3/22
-
-## Standup
-- Weekend,
-	- I had a PHP party!
-		- Coded a madlibs to get familiar with PHP’s basic structure
-		- Practiced using conditionals
-		- Learned about arrays and associative arrays/objects
-		- Introduced to the foreach statement to loop through arrays and objects
-	- Created the monster adoption site! Lots of fun
-	-	Other topics that come to mind: delimiter, statement, operator, argument, function (might be time for a /study-hall review)
-	- Learned more about HSL (I much prefer HSL to using RGB)
-
-- Today,
-	- Implement Derek’s feedback on my monsters site
-	- Organize folder structure locally and on Transmit
-	- If there’s time, keep troubleshooting why DeployBot isn’t working for me even though it’s error-free
-	- Finish coding up the HTML and CSS for my goals page at hjalmar/goals/index.html
-		- Why I’ve taken so long: I didn’t plan my website’s design in a flexible enough way, and a simple goals list looks terrible because of my CSS, so I’m making a separate style file
-	- Draft a case study for my Joyfully Clean project
-	- Schedule a meeting with Derek IF he’s available today!
-
-## Notes
-
-## Questions
-So far, I have a few questions:
-
-- General:
-	- Regarding website titles (metadata information) is it best to repeat your information--like "Hjalmar's Site" or change it based on the specific page--like "Hjalmar's Goals"
-	- I have lots of project ideas and picked these three. Which one would whelp me learn the most and look good on a portfolio?
-		- A business card website generator (for when SquareSpace is too much and Linktree is too little) using PHP and taking user data from a Google form
-		- A portfolio site for my partner who's a photographer and architect, so a very image-heavy design and build
-		- A PSA-style website similar to nohello.net talking about how "lootboxes" (video game gambling) is dangerous
-	- Instead of doing icons or other graphics in Affinity Designer for the thing-a-day challenge, could I make a style tile a day instead? I feel like that's a valuable skill, and it would let me explore lots of my project ideas by designing style tiles for them.
-
-- Troubleshooting:
-	- Sublime's Package Manager doesn't let me install the PHP Syntax Checker. What do?
-	- DeployBot doesn't show any errors but it's not updating my files after pushing them through GitHub.
-
-- Personal website-related:
-	- What's the right way to include fonts into websites?
-	- I'm trying to make a card that is half image and half text, but can't. How do I get an image to be only half of its parent in the context of flexbox? Using width: 50% isn't working.
-
-- Job-related:
-	- What distinguishes a web developer that earns $200K from one earning $50K?
-	-	What can I start doing early to set myself up for success later one?
-	- What is realistic to aim for with the first job search?
+### Questions
+- What sizes should I use in Affinity Designer to mimic mobile, tablet, and screen displays? I waant to be precise.
+- Unrelated but for my icon challenge, I should find out sizes icons are normally at
+- My skills don't match my vision yet. I want to be able to template / layout build faster and more accurately with Affinity Designer. Then actually code it!
