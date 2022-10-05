@@ -2,6 +2,16 @@
 Hello world! This is a small side-project where I keep notes on what I’m learning at the moment.
 You can find me here: https://hjalmar.dev
 
+## 10/4/22
+I'm starting a "theming" challenge where I code a responsive layout and then work on the CSS to make it look pro!
+
+### Standup
+Today,
+- [ ] Code the responsive layout for the theme challenge ASAP
+- [ ] If there's time, meet with Derek for code review and questions / show the code so far
+
+### Notes
+- Today I got side-tracked doing errands and with life stuff coming up. When that happens often, it's something about my approach. So, I'm thinking that I should work on the lessons first thing every morning so if anything comes up that might disrupt my workday it's OK--I already did the most important things.
 
 ## 10/3/22
 I continued working on my website, goals page, and other side-project type work like writing a case study for my first small business website.
@@ -18,7 +28,7 @@ I continued working on my website, goals page, and other side-project type work 
 	- Learned more about HSL (I much prefer HSL to using RGB)
 
 - Today:
-	- [ ] Implement Derek’s feedback on my monsters site
+	- [x] Implement Derek’s feedback on my monsters site
 	- [x] Organize folder structure locally and on Transmit
 	- [x] If there’s time, keep troubleshooting why DeployBot isn’t working for me even though it’s error-free
 	- [x] Finish coding up the HTML and CSS for my goals page at hjalmar/goals/index.html
@@ -28,6 +38,7 @@ I continued working on my website, goals page, and other side-project type work 
 	- [x] Schedule a meeting with Derek IF he’s available today!
 
 ### Notes
+- Custome elements are display: inline by default, so set them to block!
 - PHP doesn't come default on all computers. In order to use a package in Sublime, we had to install it. Also, [Homebrew](https://brew.sh/) for macOS is great.
 - Seems simple but it's really all there is: "It’s just sitting down - and doing the work - and staying clear on your intention." - Derek
 - Fun fact--markdown can accept HTML!
