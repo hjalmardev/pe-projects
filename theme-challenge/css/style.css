@@ -1,6 +1,214 @@
 @import 'meyer-reset.css';
 @import 'setup.css';
 
+/* STRUCTURE */
 html {
-	background-color: mint;
+	background-color: white;
+}
+
+inner-column {
+	display: block;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* BORDERS */
+header {
+	border: 3px solid black;
+}
+
+inner-column {
+	border: 3px solid black;
+}
+
+h1, h2, h3, p, a{
+	border: 3px solid black;
+}
+
+/* MASTHEAD */
+masthead {
+	display: block;
+	border: 3px solid black;
+	padding: 10px;
+}
+
+masthead nav {
+	border: 3px solid black;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+masthead a {
+	border: 3px solid black;
+	padding: 10px;
+}
+
+@media (min-width: 600px) {
+	masthead {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+/* DIPTYCH  */
+.diptych {
+	padding: 10px;
+}
+
+.diptych inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.diptych picture {
+	max-width: 600px;
+	border: 3px solid black;
+}
+
+.diptych-text {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+@media (min-width: 600px) {
+	.diptych inner-column {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	.diptych-text {
+		display: flex;
+		justify-content: center;
+		max-width: 50%;
+	}
+
+	.diptych picture {
+	max-width: 50%;
+	border: 3px solid black;
+	}
+}
+
+/* CALL TO ACTION */
+.call-to-action inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+@media (min-width: 550px) {
+	.call-to-action inner-column {
+		padding: 50px;
+	}
+}
+
+@media (min-width: 800px) {
+	.call-to-action inner-column {
+		padding: 100px;
+	}
+}
+
+/* ARTICLE GRID */
+.article-grid inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.article-grid header {
+	display: flex;
+	flex-direction: column;
+	border: 3px solid black;
+	gap: 10px;
+	padding: 10px;
+}
+
+.article-grid header h2, h3, p, a {
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+article-card {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	border: 3px solid black;
+	padding: 10px;
+}
+
+@media (min-width: 550px) {
+	article-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+	}
+}
+
+@media (min-width: 800px) {
+	article-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+/* FOOTER */
+footer inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+footer header {
+	margin-bottom: 20px;
+}
+
+/* How do I make the nav-boxes stack
+on top of each other in the smallest
+breakpoint without collapsing into
+a column? */
+.nav-area {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.nav-box {
+	display: flex;
+	flex-direction: column;
+}
+
+/*STICKY FOOTER */
+.site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.site-content {
+	flex: 1;
 }
