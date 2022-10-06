@@ -2,11 +2,27 @@
 Hello world! This is a small side-project where I keep notes on what I’m learning at the moment.
 You can find me here: https://hjalmar.dev
 
+## 10/5/22
+I'm continuing with the super responsive layout challenge. I'll write the code, get it reviewed, implement any feedback, then research how it will look theme-wise.
+
+## Standup
+- [ ] Code up the layout
+- [ ] Meet / show Derek my progress so far
+- [ ] Implement any feedback on the project
+- [ ] Start the research phase
+- [ ] If there’s time, implement Derek’s feedback on my website real quick
+- [ ] Add a module to the responsive layout garden based on a cool ProtonMail splash screen
+
+
+## Notes
+
+## Quesitons
+- [ ] In the context of Frontend Development, what do we mean by *theme* and *template*? 
+
 ## 10/4/22
 I'm starting a "theming" challenge where I code a responsive layout and then work on the CSS to make it look pro!
 
 ### Standup
-Today,
 - [ ] Code the responsive layout for the theme challenge ASAP
 - [ ] If there's time, meet with Derek for code review and questions / show the code so far
 
@@ -19,10 +35,6 @@ I continued working on my website, goals page, and other side-project type work 
 ### Standup
 - Weekend:
 	- I had a PHP party!
-		- Coded a madlibs to get familiar with PHP’s basic structure
-		- Practiced using conditional
-		- Learned about arrays and associative arrays/objects
-		- Introduced to the foreach statement to loop through arrays and objects
 	- Created the monster adoption site! Lots of fun
 	-	Other topics that come to mind: delimiter, statement, operator, argument, function (might be time for a /study-hall review)
 	- Learned more about HSL (I much prefer HSL to using RGB)
