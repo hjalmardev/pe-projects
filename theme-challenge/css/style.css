@@ -102,9 +102,6 @@ footer nav a {
 	color: blue;
 }
 
-/* How can I make an anchor link
-inside a grid not take up all the
-space?  */
 article-card a {
 	font-weight: 900;
 	text-transform: uppercase;
@@ -241,6 +238,7 @@ masthead a {
 article-card {
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
 	gap: 10px;
 	padding: 10px;
 }
@@ -278,10 +276,6 @@ footer heading {
 	margin-bottom: 20px;
 }
 
-/* How do I make the nav-boxes stack
-on top of each other in the smallest
-breakpoint without collapsing into
-a column? */
 .nav-area {
 	display: flex;
 	flex-direction: row;
