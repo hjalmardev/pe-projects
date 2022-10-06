@@ -10,6 +10,8 @@ inner-column {
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+	font-family: arial;
+
 }
 
 /* BACKGROUND COLORS */
@@ -22,8 +24,7 @@ inner-column {
 }
 
 /* Strange, I have to specify 2 and 4
-in the nth-of-type two select the
-two classes with CSS--why? They're
+in the nth-of-type to select the classes with CSS--why? They're
 only two classes present. */
 .action-area:nth-of-type(2) {
 	background-color: #dc9dc8;
@@ -42,14 +43,81 @@ footer {
 }
 
 
-/* MASTHEAD */
-header inner-column {
-	display: ;
+/* TYPOGRAPHY */
+.diptych h1 {
+	font-size: 2em;
+	font-weight: 900;
 }
 
-masthead {
-	display: block;
+.diptych p {
+	line-height: 1.2em;
+	max-width: 50;
+}
+
+call-to-action h2 {
+	font-size: 2em;
+	font-weight: 900;
+	margin-bottom: 40px;
+}
+
+call-to-action p {
+	line-height: 1.2em;
+	margin-bottom: 10px;
+}
+
+call-to-action a {
+	display: inline;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: white;
+	background-color: black;
 	padding: 10px;
+}
+
+.article-grid h2 {
+	font-size: 1.8em;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+
+article-card h3 {
+	font-size: 1.8em;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+
+article-card p {
+	line-height: 1.2em;
+	margin-bottom: 10px;
+}
+
+footer h2 {
+	font-size: 1.8em;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+
+
+footer nav a {
+	color: blue;
+}
+
+/* How can I make an anchor link
+inside a grid not take up all the
+space?  */
+article-card a {
+	font-weight: 900;
+	text-transform: uppercase;
+	color: white;
+	background-color: black;
+	padding: 10px;
+}
+
+/* MASTHEAD */
+header inner-column {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 masthead {
@@ -66,6 +134,7 @@ masthead nav {
 
 masthead a {
 	padding: 10px;
+	color: blue;
 }
 
 @media (min-width: 600px) {
@@ -78,7 +147,7 @@ masthead a {
 
 /* DIPTYCH  */
 .diptych {
-	padding: 10px;
+	padding: 40px 10px;
 }
 
 .diptych inner-column {
@@ -118,6 +187,10 @@ masthead a {
 }
 
 /* CALL TO ACTION */
+.action-area {
+	padding: 40px 10px;
+}
+
 .action-area inner-column {
 	display: flex;
 	flex-direction: column;
@@ -140,6 +213,10 @@ masthead a {
 }
 
 /* ARTICLE GRID */
+.article-grid {
+	padding: 40px 10px;
+}
+
 .article-grid inner-column {
 	display: flex;
 	flex-direction: column;
@@ -157,7 +234,7 @@ masthead a {
 }
 
 .article-grid header h2, h3, p, a {
-	display: inline-block;
+	/*display: inline-block;*/
 	padding: 10px 0px;
 }
 
@@ -184,6 +261,10 @@ article-card {
 }
 
 /* FOOTER */
+footer {
+	padding: 40px 10px;
+}
+
 footer inner-column {
 	display: flex;
 	flex-direction: column;
