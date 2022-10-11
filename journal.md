@@ -2,22 +2,112 @@
 Hello world! This is a small side-project where I keep notes on what I’m learning at the moment.
 You can find me here: https://hjalmar.dev
 
+## 10/10/22
+
+## Notes
+- Not making a layout / wireframe before going into the CSS feels like skipping a step, but in reality we won't always have access to the code at the styling phase so we don't know how the CSS is going to look like exactly
+
+## Questions
+- [ ] How do you make an image background span across two divs?
+- [ ] Somestimes I elements with both display:block and display:inline, is that OK? I imagine it has to do with them being custom.
+- [ ] How can I make the diptych h1 longer without changing its font size? 
+- [ ] Best way to maintain zig-zag grid layout across screen sizes, in regards to spacing issues?
+- [ ] What does font-size: clamp do?
+- [ ] DO I need to specify different font sizes for alls creen sizes with @media? What are the best practices? Like, where should I put the code? In typography.css or module-specific even if it's typography
+- [ ] In regards to the parser's flow, what comes first? SOmetimes, a lower rule would override my changes and it made editing the CSS more confusing.
+- [ ] How can I change two sections with the same class separately? Like with the two call-to-action modules
+- [ ] How can I make images specifically, in a grid, look longer / taller?
+
+
+## 10/9/22
+
+## Notes
+- Looking at Derek’s code:
+ - I never would’ve thought to implement PHP at this level of granularity / specifics--it’s great!
+ - At first it took me a bit to wrap my head around it, but it makes much more sense to be this specific. Thinking about future websites, it’s so efficient to mix and match or swap the code in and out as needed
+ - A question came up about where to put universal style changes like a background gradient that spans the whole page? I imagine in the highest-level css file, which is style.css
+ - Comparing my code to Derek’s, my initial impression is that my HTML was OK (good naming convention and nesting). My CSS is messier but works
+ - Read loading='lazy' on an image? That seems interesting, going to look it up
+ - Using the database array for the article-grid seems so clever but it’s literally what we learned in the lessons! So I want to try implementing it from scratch on a personal project because it still feels “like magic”
+
+## 10/7/22
+Today, I will finish the style tile from yesterday (I did a lot of research and testing visuals in Affinity Designer) and translate it to CSS.
+
+## 10/6/22
+
+## Standup
+- [x] Research an industry/niche for my theme challenge
+- [ ] Create a style tile based on my research
+- [ ] I want to work efficiently so I can have time to add a new module to my layout garden, or update my website
+- [x] Meet with Derek
+- [ ] Implement Derek’s feedback on the theme challenge code
+	- [ ] Also, add PHP for practice
+	- [x] Fix the large anchor link
+
+## Notes
+
+---
+
+Reference:
+https://www.earthshot.eco/
+https://www.cogo.co/
+https://www.heirloomcarbon.com/
+https://remoracarbon.com/
+https://www.twelve.co/
+https://www.livingcarbon.com/
+https://www.southpole.com/
+https://www.wildlifeworks.com/
+https://www.ribbitnetwork.org/
+https://salo.ai/
+https://www.goodmachine.studio/
+https://www.leveltenenergy.com/
+
+
+Fonts: 
+Favorit, Exan, Space Grotesk + Satoshi? Arial?, Denim + Tahoma, Frutiger + Helvetica, athelas-web + proxima nova, PT Sans + Lato, Nexa + Monserrat?, Lato
+
+"Today’s goal is to get a sense of how this industry tells its story through a website. There is no copy to write for this final project (use what is provided in the template) – so keep in mind there will be no clues as to what the business site is or who you created it for.
+
+Your font choice will matter very much – as well as any graphics you may create or colors that you utilize, images, etc… as these are the components that we will be using to help with the storytelling.
+
+Consider these visual components as you are researching around and write down what you see in terms of…
+
+What is working
+What isn’t
+What keywords or phrases keep coming up,
+What is hitting you on the head?
+Write it all down as it will be a large part of your case study. Takes lots of screenshots.
+
+This is a new client and they want to know that you understand their industry and how you came to your conclusions.
+
+Use any tools you have to organize your thoughts and get as much as you can in the time frame. Maybe 3 sittings of 1 hour each?"
+
+---
+
+
+## Questions
+- [x] How much should be PHP? Article cards for sure. But should all modules be PHP? Header and footer too?
+- [x] How to approach making code cleaner and less redundant? I imagine: thinking about someone else reading it, adding comments, asking if the code there is necessary, asking yourself/someone else if there's a better way to implement the code, etc.
+
 ## 10/5/22
 I'm continuing with the super responsive layout challenge. I'll write the code, get it reviewed, implement any feedback, then research how it will look theme-wise.
 
 ## Standup
-- [ ] Code up the layout
-- [ ] Meet / show Derek my progress so far
-- [ ] Implement any feedback on the project
-- [ ] Start the research phase
-- [ ] If there’s time, implement Derek’s feedback on my website real quick
-- [ ] Add a module to the responsive layout garden based on a cool ProtonMail splash screen
-
+- [x] Code up the layout
+- [x] Share my progress so far
 
 ## Notes
+- For a beginner portfolio, I think this might work (they show design, HTML, CSS, and PHP):
 
 ## Quesitons
-- [ ] In the context of Frontend Development, what do we mean by *theme* and *template*? 
+- [x] In the context of Frontend Development, what do we mean by *theme* and *template*?
+- [ ] I forgot: what's the difference between margin and padding in CSS?
+- [ ] For a beginner-level website that is complete, what can I feature there? I think the following projects might help. Anything else?
+		- A simple business card website
+		- An updated version of the Joyfully Clean website or monsters site?
+		- The best 2 - 3 graphics I've made
+		- The responsive layout garden with 5+ examples
+		- The theme challenge
 
 ## 10/4/22
 I'm starting a "theming" challenge where I code a responsive layout and then work on the CSS to make it look pro!
