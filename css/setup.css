@@ -32,8 +32,12 @@ a {
 	/* inline elements can't have block elements inside! */
 }
 
+h1 a {
+	display: inline-block;
+}
+
 p a { /* "all links in paragraphs..." */
 	display: inline-block;
 	list-style: underline;
-	color: blue; /* put back styles for normal links */
+	/*color: blue;  put back styles for normal links */
 }
