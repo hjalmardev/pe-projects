@@ -1,0 +1,48 @@
+
+mast-head {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+mast-head nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+mast-head .logo {
+  max-width:  60px;
+  display: none;
+}
+
+mast-head a {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem;
+  padding:  10px;
+}
+
+mast-head a:nth-of-type(1) {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+mast-head a:nth-of-type(2), a:nth-of-type(3) {
+  font-weight: 100;
+}
+
+mast-head a:nth-of-type(3) {
+  font-weight: 100;
+  background-color: #4b7262;
+  border-radius: 50px;
+}
+
+/*@media (min-width: 600px) {
+  mast-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}*/

@@ -24,8 +24,13 @@ inner-column {
 }
 
 /* Strange, I have to specify 2 and 4
-in the nth-of-type to select the classes with CSS--why? They're
-only two classes present. */
+in the nth-of-type to select the classes with CSS--why?
+There are only two classes present. And they override
+each other too. */
+.action-area:nth-of-type(4) {
+	background-color: #ff919a;
+}
+
 .action-area:nth-of-type(2) {
 	background-color: #dc9dc8;
 }

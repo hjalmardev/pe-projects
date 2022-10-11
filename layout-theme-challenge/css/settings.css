@@ -1,0 +1,18 @@
+/* SETTINGS  ("variables" in our case) */
+html {
+	--black: #111111;
+	--white: #FFFFFF;
+	--color: #013121;
+	--highlight: #aadee9;
+	--gradient: linear-gradient(#4c7263, #111111 150px);
+
+}
+/* you can make more! */
+
+
+
+/* USAGE */
+
+.thingy {
+	color: var(--highlight); /* used as variable */
+}

@@ -1,0 +1,41 @@
+
+graphic-diptych {
+  display: block;
+  padding:  10px;
+  padding-top: 26vh;
+  padding-bottom: 26vh;
+  /* */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+graphic-diptych text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+graphic-diptych picture {
+  display: none;
+}
+
+/*graphic-diptych p {}*/
+
+/*@media (min-width: 660px) {
+  graphic-diptych {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  graphic-diptych :is(picture, text-content) {
+    width: 30%;
+  }
+
+  graphic-diptych picture {
+    display: none;
+    order: 2;
+     OR you could use flex-direction row-reverse 
+     it depends on the situation 
+  }
+}*/
