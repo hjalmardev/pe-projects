@@ -1,12 +1,19 @@
 
 <call-to-action>
 
-	<h2 class='attention-voice'>This module is a "call to action"</h2>
+	<h4>Technology</h4>
 
-	<p class='calm-voice'>These aren't names you should memorize. We're just making them up. Sometimes things get called something so many times, that it sticks. This is a pretty common pattern</p>
+	<picture>
+		<!-- <img src="https://peprojects.dev/images/landscape.jpg" alt="$todo"> -->
+	</picture>
+
+	<h2 class='attention-voice'>Designed for scale,
+engineered for impact.</h2>
+
+	<p class='calm-voice'>Deploying carbon dioxide removal at gigaton-scale is now a requirement if we want to keep global temperature rise below 1.5°C.</p>
 
 	<a href='#'>
-		<span>Here's the action!</span>
+		<span>Read our white paper ⟶</span>
 	</a>
 
 </call-to-action>
