@@ -6,21 +6,30 @@ call-to-action {
   /* */
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: left;
 }
 
 call-to-action p {
   max-width: 67ch;
+  padding-bottom: 10px;
 }
 
 call-to-action a {
+  font-family: 'Space Grotesk', sans-serif;
   margin-top: 20px;
-  padding: 15px;
   background-color: #4b7262;
   border-radius: 50px;
   color: white;
+  padding: 5px 10px;
+  max-width: 22ch;
+}
 
-
+call-to-action h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 100;
+  margin-bottom: 40px;
 }
 
 @media (min-width: 600px) {

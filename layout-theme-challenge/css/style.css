@@ -50,9 +50,9 @@ html {
 
 /* SITE SECTIONS */
 .site-header {
-	/*background-color: #9ec9eb;*/
-	/*	position: sticky;
-	top: 0;*/
+	background-color: var(--color);
+	position: sticky;
+	top: 0;
 	/*box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);*/
 }
 
@@ -70,12 +70,12 @@ html {
 /* Also the header is not sticky in these websites, plus replace
 logo icon with text */
 .site-header {
-  background-color: var(--color);
+  /*background-color: var(--color);*/
   color: var(--white);
 }
 
 .welcome {
-  background-image: url("https://images.unsplash.com/photo-1534805243235-5c9c0f6dfbd0");
+  background-image: url('../images/background.jpeg');
   background-size: cover;
   background-position: center;
   color: var(--white);

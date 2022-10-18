@@ -1,6 +1,7 @@
 
 site-map {
   display: block;
+  position: relative;
   /* */
   padding-top: 40px;
   padding-bottom: 120px;
@@ -9,14 +10,7 @@ site-map {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-site-map .logo {
-  max-width:  40px;
-}
-
-site-map .logo * {
-  fill: currentColor;
+  align-items: flex-start;
 }
 
 site-map h3 {
@@ -24,7 +18,8 @@ site-map h3 {
   font-weight: 400;
   font-size: .8rem;
   text-transform: uppercase;
-  padding-bottom: px;
+  padding-bottom: 10px;
+  color: #b3bcb9;
 }
 
 site-map a {
@@ -36,33 +31,30 @@ site-map a {
   text-transform: capitalize;
 }
 
-site-map .logo {
-  display: none;
+site-map a:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+site-map .logotype {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+site-map .logotype:hover {
+  text-decoration: none;
 }
 
 site-map .site-menu a:nth-of-type(2) {
   display: none;
 }
 
-site-map .site-menu a:nth-of-type(3) {
-  font-size: 1.2rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-}
-
-@media (min-width:  700px) {
-  site-map nav {
-    width:  50%;
-  }
-}
-
-@media (min-width:  900px) {
-  site-map nav {
-    width:  25%;
-  }
-}
-
-site-map nav {
-  flex-grow:  1;
+site-map .copyright {
+  position: absolute;
+  bottom: 0;
+  color: #b3bcb9;
+  font-family: 'Space Grotesk', sans-serif;
 }

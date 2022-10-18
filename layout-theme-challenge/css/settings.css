@@ -4,7 +4,8 @@ html {
 	--white: #FFFFFF;
 	--color: #013121;
 	--highlight: #aadee9;
-	--gradient: linear-gradient(#4c7263, #111111 150px);
+	--gradient: linear-gradient(#013121, #111111 200px);
+	
 
 }
 /* you can make more! */
