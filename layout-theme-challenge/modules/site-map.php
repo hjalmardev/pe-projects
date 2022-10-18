@@ -2,7 +2,7 @@
 <site-map>
 
 	<nav class='site-menu'>
-		<a class='logotype'>
+		<a class='logotype' href='#'>
 			<span>CARBON<span>
 		</a>
 	</nav>
