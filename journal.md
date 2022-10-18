@@ -2,6 +2,48 @@
 Hello world! This is a small side-project where I keep notes on what I’m learning at the moment.
 You can find me here: https://hjalmar.dev
 
+## 10/18/22
+I haven't been consistent with my notes, mainly because I didn't include them in my "habit stacking" approach. The last week went by like a blur! I'm finishing the theme challenge today (which I've said many times, but I'm actually happy with where it is now--I just have to ask Derek for help on one of the modules and I'm done!).
+
+Then, I'll be jumping into the Exercises for Programmers book. This is very exciting because all this "backend" stuff seems mysterious, and working with a language in a more programmy way--rather than focusing on rendering the webpage visually--seems really different.
+
+I'd like to practice PHP on the side too, because I didn't get to implement it on my website. Starting there could be a good idea since I need to make it modular so that I can maintain a core structure and style across other pages (like my /goals, /resume, /projects pages and more).
+
+Strange how, despite health challenges, I really want to keep learning. Makes me feel like I found my place.
+
+## Standup
+Yesterday, I made a lot of progress on my theme-challenge. So much so that it only needs one bug fix and it's done. I got the layout for the article section just how I wanted!
+
+I'll sneak in 20min. to ask Derek for help with a masthead bug. Then, I'll move on the the Exercises for Programmers book and get to chapter 2.
+
+If I have time left, I'll start implementing PHP on my site for practice so it stays fresh on memory.
+
+## Notes
+-
+
+## 10/12/22
+Today's pretty exciting! I'm adding lots of suggestions to the theme challenge site to polish it, and get that "pro" look that comes from the small details that show thoughtfulness.
+
+## Standup
+- Implement all of Derek’s great feedback on the theme-challenge (the last 20%)
+- Start implementing the suggestions for my website
+
+## Notes
+
+
+## 10/11/22
+Today, I'll work on the second try of my theme challenge. We're fixing bugs and polishing the website's look.
+
+## Standup
+- [x] Meet Derek for feedback on the theme website
+- [ ] Implement the suggestions / fix bugs--and improve its overall look
+- [x] Update the code for my business-card site
+- [ ] Responsive. Layout. Garden.
+
+## Notes
+- When thinking about what makes a website look polished, the spacing, hover animations, font sizes--all matter. It's in the details. The last 10% - 20%
+- I realized this notes file can turn into a great write-up on the bootcamp experience and the learning journey from a career-changer's perspective.
+
 ## 10/10/22
 
 ## Notes
