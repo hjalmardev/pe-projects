@@ -7,7 +7,7 @@
 		</a>
 	</nav>
 
-	<nav class='user-menu'>
+	<nav class='legal-menu'>
 		<h3>Carbon Users</h3>
 
 		<a href='#'>Sign-in</a>
