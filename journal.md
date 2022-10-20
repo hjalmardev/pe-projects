@@ -2,6 +2,34 @@
 Hello world! This is a small side-project where I keep notes on what I’m learning at the moment.
 You can find me here: https://hjalmar.dev
 
+## 10/19/22
+Brand new day and I feel better than yesterday! Yesterday I made progress on my theme-challenge and Derek and I found some spacing and breakpoint issues that are keeping the website from being ship shape--so I'm going to work on that today after the server-side forms lesson.
+
+I also went through the first two chapters of the Exercises for Programmers book (which is a great resource). I also went through all the exercises in chapter two with pseudocode, which was a great experience. It makes the process of coneptualizing and planning a problem/thing to build much more approachable. It's not rocket science. Just practice.
+
+I'm excited to jump into forms today. I have a lot of project ideas for people in Puerto Rico that could use form inputs down the line. I'm not sure if I'll have time for TAD (which originally was for the layout-garden, and then for progress on my personal projects) but I'll try and get to it after the lesson and theme-challenge work.
+
+There's this really great website with lots of challenges called [FrontendMentor](https://www.frontendmentor.io/challenges) that I would love to tackle for my thing-a-day challenge. It would help me build like a super powered layout garden--but I can't do an entire one each day right now.
+
+Anyway, on with the standup!
+
+## Standup
+
+**Yesterday:**
+- I made progress on the theme challenge
+- Read the first two chapters of EfP--love this book!
+- Went through the exercises from chapter two with pseudocode
+
+**Today:**
+- Fix the spacing and breakpoint issues on the theme challenge that Derek and Tara spotted
+- I'm really excited to get into forms! A lot of my project ideas down the line involve forms, so it'll be interesting to explore a bit of interaction
+
+## Notes
+- Based on Tara and Derek's feedback:
+	- Remember that mobile always comes first--it can't be an afterthought when implementing solutions/hacky visual CSS
+	- Pay careful attention to spacing decisions early on (or better yet: decide them in the mockup or Affinity Designer stage) because it can come back to bite you by creating lots of inconsistency
+- 
+
 ## 10/18/22
 I haven't been consistent with my notes, mainly because I didn't include them in my "habit stacking" approach. The last week went by like a blur! I'm finishing the theme challenge today (which I've said many times, but I'm actually happy with where it is now--I just have to ask Derek for help on one of the modules and I'm done!).
 
@@ -19,7 +47,12 @@ I'll sneak in 20min. to ask Derek for help with a masthead bug. Then, I'll move 
 If I have time left, I'll start implementing PHP on my site for practice so it stays fresh on memory.
 
 ## Notes
--
+- Writing a problem statement and asking questions (gathering requirements) should be done before jumping into code
+- Writing "pseudocode" or directions and steps in plain English is helpful to get an idea of the logic, or steps required to solve the problem
+- Test Driven Development boils down to figuring out the inputs, expected output, and actual output
+- Algorithms at their most basic are really just step-by-step directions
+- Images can go a long way in giving webpages with big "splash" or "hero" images a wow-factor
+
 
 ## 10/12/22
 Today's pretty exciting! I'm adding lots of suggestions to the theme challenge site to polish it, and get that "pro" look that comes from the small details that show thoughtfulness.
