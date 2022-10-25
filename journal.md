@@ -2,6 +2,16 @@
 Hello world! This is a small side-project where I keep notes on what I’m learning at the moment.
 You can find me here: https://hjalmar.dev
 
+---
+
+## Workflow
+1. Complete lesson exercise(s)
+2. For TAD: build personal project
+3. Ask for feedback
+4. Daily review (GTD, standup, journal.md, git-push, share insipiration, TAD progress)
+
+--
+
 ## 10/19/22
 Brand new day and I feel better than yesterday! Yesterday I made progress on my theme-challenge and Derek and I found some spacing and breakpoint issues that are keeping the website from being ship shape--so I'm going to work on that today after the server-side forms lesson.
 
