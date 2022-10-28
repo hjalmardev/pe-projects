@@ -6,7 +6,7 @@
 
 <main>
 	<inner-column>
-		<p>The clarity that you gain after overcoming challenges can be sharp as a sword. My purpose is "lifelong learning for social good." To me that looks like mastering the skills of writing and programming--then, using them to fight climate change and reduce the <a href="https://www.humanetech.com/">negative impacts of technology</a>.</p>
+		<p>The clarity that you gain after overcoming challenges can be sharp as a sword. My purpose is "lifelong learning for social good." To me that looks like mastering the skills of writing and programming--then, using them to fight climate change and reduce the <a href="https://www.humanetech.com/key-issues">negative impacts of technology</a>.</p>
 
 		<?php include('site-menu.php'); ?>
 
