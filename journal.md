@@ -4,13 +4,42 @@ You can find me here: https://hjalmar.dev
 
 ---
 
-## Workflow
+## Workflow (Simplified)
 1. Complete lesson exercise(s)
 2. For TAD: build personal project
 3. Ask for feedback
-4. Daily review (GTD, standup, journal.md, git-push, share insipiration, TAD progress)
+4. Daily review (GTD, standup, journal.md, git-push, share insipiration, share TAD progress)
 
 --
+## 10/27/22
+For the project: how are the pages going to look like style and structure-wise across different purposes?
+
+There's the business-card like home. A projects page with links to three selected works. Plus a goals page.
+
+Eventually other pages will be there but this is a start.
+
+I'm thinking about this from a visual perspective for the purposes of partialing out the HTML using PHP. For example, not all of my websites should say "Hello! I'm Hjalmar" on the top--that's already been established in the home page. So, what happens next?
+
+Internal pages: WIP home, projects, resume, goals, blog/list of posts.
+External links: GitHub, LinkedIn, e-mail, and Substack
+
+
+## Notes
+- Controler, template
+- List, archive, home, detail pages
+
+## Questions
+- How do I limit unwated queries?
+
+## 10/26/22
+
+## Notes
+For my PHP framework architecture project, I'd like to work on my personal website. I haven't added PHP to it yet and I want to neatly integreate different pages like /goals, /resume, and /projects (with /e4p and /layout-garden).
+
+Creating one template that is populated with dynamic data on the fly. The important part is that we have a list wih a router behind it--so my home page with contextual links in this case?
+
+The detail page that loads dynamically could be a list of my projects.
+
 
 ## 10/19/22
 Brand new day and I feel better than yesterday! Yesterday I made progress on my theme-challenge and Derek and I found some spacing and breakpoint issues that are keeping the website from being ship shape--so I'm going to work on that today after the server-side forms lesson.
