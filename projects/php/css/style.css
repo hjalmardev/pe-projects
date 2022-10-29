@@ -89,3 +89,28 @@ nav {
 project-card {
 	display: block;
 }
+
+form {
+	padding: 30px 0;
+}
+
+field {
+	display: block;
+}
+
+field :is(label, input) {
+	display: block;
+}
+
+field + field {
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
