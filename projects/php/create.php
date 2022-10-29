@@ -2,14 +2,12 @@
 	if ( isset($_POST['add']) ) {
 		echo "added project";
 	}
-
-
 ?>
 
 
 <h1>Add Project</h1>
 
-<form>
+<form method='POST'>
 	<field>
 		<label>Project Title</label>
 		<input type='text'>
