@@ -1,7 +1,7 @@
 <html lang='en'>
 	<head>
 		<meta charset='utf-8'>
-		<meta name='vieport' content='width=device-width, initial-scale=1'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
 		<title>Hjalmar's Site</title>
 		<meta name='description' content='Hjalmar is a Frontend Developer helping small businesses build responsive websites.'>

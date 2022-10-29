@@ -24,6 +24,9 @@
 		if ($page == 'projects') {
 			include('projects.php');
 		}
+		if ($page == 'detail') {
+			include('detail.php');
+		}
 
 		?>
 	</body>
