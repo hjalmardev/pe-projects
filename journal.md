@@ -11,6 +11,37 @@ You can find me here: https://hjalmar.dev
 4. Daily review (GTD, standup, journal.md, git-push, share insipiration, share TAD progress)
 
 --
+## 10/30/22
+Today, I'll work through the resources on JSON and style my project so it's ready to go live.
+
+## 10/29/22
+OK, so lots of great backend work done today!
+
+Yesterday, I mainly worked on creating a dynamic detail page and making sure the routing worked connected to it + the data being referenced.
+
+Today, I added validation to my project form, and built a basic data structure in a bit of a preview on CRUD apps. I also watched the video on using route-based classes with CSS--which I'll work as soon as I'm done with JSON in a bit.
+
+
+## Notes
+- Do dynamic detail templates negatively affect SEO? How do search engines access the dynamic data?
+
+
+## 10/28/22
+Today, I'm planning and implementing the details page for my framework architecture project with PHP.
+
+## Notes
+The deatils page could be linked to through the projects page. 
+
+I want the details page to be a list that loads data on all my projects.
+
+The basic content is:
+1. Title
+2. Description
+3. Link
+4. Date?
+5. In the future: content to fill out the case study
+
+
 ## 10/27/22
 For the project: how are the pages going to look like style and structure-wise across different purposes?
 
