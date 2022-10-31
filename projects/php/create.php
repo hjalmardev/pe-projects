@@ -1,5 +1,9 @@
 <?php
 
+	$projectData = file_get_contents('projects.json');
+
+	var_dump($projectData);
+	
 	$title = "";
 	$description  = "";
 	$id = 0;
@@ -11,13 +15,27 @@
 	$descriptionError = false;
 
 	// $todo: check if ID already exists before adding number
-	if ( isset($_POST['add']) ) {
+	if ( isset($_POST['submitted']) ) {
 		
 		if ( isset($_POST['title']) ) {
 			$title = $_POST['title'];
 			
 			if ( strlen($title) > 0 ) {
 				$hasTitle = true;
+			
+				// CREATE PROJECT
+				$newProject = [
+					"title" => $title,
+				];
+
+				// PHP to JSON TRANSFORM
+				$projectJson = json_encode($newProject);
+				// var_dump($newProject);
+
+				// SAVE PROJECT
+				file_put_contents('projects.json', $projectJson);
+
+
 			} else {
 				$titleError = "Please add project title.";
 			}
@@ -37,7 +55,7 @@
 		}
 	}
 
-	if ( isset($_POST['add']) ) {
+	if ( isset($_POST['submitted']) ) {
 		
 		if ( isset($_POST['id']) ) {
 			$id = $_POST['id'];
@@ -57,7 +75,7 @@
 			$id => $_POST['id'],
 		];
 
-		var_dump($project);
+		// var_dump($project);
 	}
 ?>
 
@@ -87,7 +105,7 @@
 		<input type='number' name='id' min='1' value='0'>
 	</field>
 
-	<button type='submit' name='add'>
+	<button type='submit' name='submitted'>
 		Add
 	</button>
 </form>

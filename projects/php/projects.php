@@ -8,7 +8,7 @@
 
 <main>
 	<inner-column>
-		<p>I'm currently focused on HTML, CSS, PHP, and design.</p>
+		<p>I'm currently focused on HTML, CSS, PHP, and visual design.</p>
 
 		<?php include('site-menu.php'); ?>
 
