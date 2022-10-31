@@ -6,36 +6,36 @@
 
 <main>
 	<inner-column>
-		<p>Currently my purpose is "lifelong learning for social good." To me that looks like mastering the skills of writing and programming, then using them for causes like climate change or reducing the <a href="https://www.humanetech.com/key-issues">impacts of technology</a>.</p>
+		<p>I am commited to <em>lifelong learning for social good</em>. For me that looks like mastering programming and writing to support causes like climate change or <a href="https://www.humanetech.com/key-issues#key-issue-areas">humanizing technology</a>.</p>
 
 		<?php include('site-menu.php'); ?>
 
 		<h2>01.2027</h2>
 
 		<ul>
-			<li><p>Complete a <a href="https://omscs.gatech.edu/">Master's in Computer Science</a> at Georgia Tech</p></li>
-			<li><p>Participate in a program like <a href="https://www.recurse.com/">Recurse Center</a> or Watch and Code</p></li>
-			<li><p>Reach 1,000 blog readers/newsletter subscribers</p></li>
+			<li>Finish a <a href="https://omscs.gatech.edu/">Master's in Computer Science</a> at Georgia Tech</li>
+			<li>Participate in a program like <a href="https://www.recurse.com/">Recurse Center</a> or Watch and Code</li>
+			<li>Reach 1,000 blog readers/newsletter subscribers</li>
 		</ul>
 		
 		<h2>01.2023</h2>
 
 		<ul>
-			<li><p>Land a remote job as a web developer at a mission-driven company (climate, humane technology, women's rights, mental health, accessibility, etc.)</p></li>
+			<li>Land a remote job as a web developer at a mission-driven company (climate, humane technology, women's rights, mental health, accessibility, etc.)</li>
 		</ul>
 		
 		<h2>11.2022</h2>
 
 		<ul>
-			<li><p>Polish personal site and three projects</p></li>
-			<li><p>Write two articles for LinkedIn/Substack</p></li>
-			<li><p>Start networking</p></li>
+			<li>Polish personal site and three projects</li>
+			<li>Write two articles for LinkedIn/Substack</li>
+			<li>Start networking</li>
 		</ul>
 		
 		<h2>10.2022</h2>
 
 		<ul>
-			<li><p>Complete the framework architecture project</p></li>
+			<li>Complete the framework architecture project</li>
 		</ul>
 
 		</inner-column>

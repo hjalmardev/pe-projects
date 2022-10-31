@@ -7,7 +7,7 @@
 
 <main>
 	<inner-column>
-		<p>I'm a <a href='https://www.linkedin.com/in/hjalmardev/' target='_blank'>Frontend Developer</a> helping small businesses build <a href='https://github.com/hjalmardev' target='_blank'>responsive websites</a>. I'm also skilled in design and can work with designers to create beautiful + functional software.</p>
+		<p>I'm a <a href='https://www.linkedin.com/in/hjalmardev/' target='_blank'>Web Developer</a> helping small businesses build <a href='https://github.com/hjalmardev' target='_blank'>responsive websites</a>. I'm also skilled in design and can work across teams to create beautiful + functional software.</p>
 
 		<p>Currently freelancing, under a mentorship at Perpetual Education, and becoming a Climatebase Fellow to build the future of climate tech 🌎</p>
 
