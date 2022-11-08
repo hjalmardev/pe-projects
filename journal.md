@@ -4,13 +4,21 @@ You can find me here: https://hjalmar.dev
 
 ---
 
-## Workflow (Simplified)
-1. Complete lesson exercise(s)
-2. For TAD: build personal project
-3. Ask for feedback
-4. Daily review (GTD, standup, journal.md, git-push, share insipiration, share TAD progress)
+## 11/7/22
+Today, I...
+- Met with Ivy and got organized for a productive week!
+- Removed a clunky CRUD form and left my /projects page with simple PHP
+- Updated the contents of the /projects list (title, description, and link)
+- Fixed a visual bug with the list decoration
+- Improved the style of my case study template (I'd like to import my case study over from Substack by the end of the week)
+	- Also removed a line of code that was echoing some backend data and added a nav
+- I was troubleshooting a visual issue with the site's background SVG but it resolved itself!
+- Pushed the changes up to GitHub for that green checkmark :green_heart:
 
---
+
+## 10/31/22
+Today, I worked through the lesson on WordPress.
+
 ## 10/30/22
 Today, I'll work through the resources on JSON and style my project so it's ready to go live.
 
@@ -20,7 +28,6 @@ OK, so lots of great backend work done today!
 Yesterday, I mainly worked on creating a dynamic detail page and making sure the routing worked connected to it + the data being referenced.
 
 Today, I added validation to my project form, and built a basic data structure in a bit of a preview on CRUD apps. I also watched the video on using route-based classes with CSS--which I'll work as soon as I'm done with JSON in a bit.
-
 
 ## Notes
 - Do dynamic detail templates negatively affect SEO? How do search engines access the dynamic data?
