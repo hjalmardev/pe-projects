@@ -4,6 +4,14 @@ You can find me here: https://hjalmar.dev
 
 ---
 
+## 11/8/22
+A new day in the projects workweek! I'll take a look at my docs and choose what to build but right now I'm leaning towards setting up and adding to the layout garden. Posting a list with deliverables in today's channel soon.
+
+- Designing the layout garden real quick (broken up by lines, headings, or one after the other without context? Left aligned or centered? Decisions like that)
+- Build the HTML/CSS structure
+- Add two modules to it
+- Included the layout garden in my site's projects page
+
 ## 11/7/22
 Today, I...
 - Met with Ivy and got organized for a productive week!
