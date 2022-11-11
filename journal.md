@@ -4,6 +4,19 @@ You can find me here: https://hjalmar.dev
 
 ---
 
+## 11/10/22
+Today, I am going to catch up on three days' worth of work! Ambitious but let's find out what I can do.
+
+For Tuesday:
+- [ ] Build the Starbucks header, and the section below
+
+For Wednesday:
+- [ ] Write a case study for the theme challenge
+
+For Thursday:
+- [ ] Improve the mobile version of the theme challenge (specifically: fix the masthead and header section)
+
+
 ## 11/8/22
 A new day in the projects workweek! I'll take a look at my docs and choose what to build but right now I'm leaning towards setting up and adding to the layout garden. Posting a list with deliverables in today's channel soon.
 
