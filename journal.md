@@ -4,11 +4,21 @@ You can find me here: https://hjalmar.dev
 
 ---
 
+## 11/11/22
+TL;DR On how to adapt your body to work when facing difficult challenges
+
+- Only focus on one metric: amount of *cummulative* hours worked without distraction
+- Use a work-and-recover approach, focusing for 1 hour, then resting for 1
+	- Short-term goal is to increase the total metric by a minute every day
+	- Long-term goal is to help the mind and body adjust to effort/work even if they're not feeling their best
+- Share the metric every day, no matter the number, so people can cheer you on to do a little more or celebrate when you pull through
+- Have a clear "shutdown" period after which you will not do any work. Can be after 6pm. Basically find ways to tell your brain "OK, time to rest fully. Calm down. Feel the discomfort of challenges and be present"
+
 ## 11/10/22
 Today, I am going to catch up on three days' worth of work! Ambitious but let's find out what I can do.
 
 For Tuesday:
-- [ ] Build the Starbucks header, and the section below
+- [WIP] Build the Starbucks header, and the section below
 
 For Wednesday:
 - [ ] Write a case study for the theme challenge
